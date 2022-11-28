@@ -1,0 +1,18 @@
+server:
+  port: 8802
+spring:
+  application:
+    name: eurekaserver
+eureka:
+  instance:
+    hostname: eureka02
+  client:
+    # 我们作为服务端角色，不需要获取服务器，改为false
+    fetch-registry: false
+    # 不把自己注册到Eureka
+#    register-with-eureka: false
+    # Eureka服务端指向自己
+    service-url:
+      # 写连接的eureka服务器地址
+      defaultZone: http://eureka01:8801/eureka
+
