@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      name: bookservice
+      # config服务器的地址
+      uri: http://localhost:8700
+      # 配置环境
+      profile: prod
+      # 分支
+      label: main

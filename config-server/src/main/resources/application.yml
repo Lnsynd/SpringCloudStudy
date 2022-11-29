@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Lnsynd/SpringCloudConfig.git
+          default-label: main
+          username: Lnsynd
+          password: lqs188452
+          force-pull: true
+server:
+  port: 8700
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8801/eureka,http://localhost:8802/eureka
