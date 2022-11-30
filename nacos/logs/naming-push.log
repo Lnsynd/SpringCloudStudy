@@ -1,0 +1,836 @@
+2022-11-30 11:56:55,747 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 11:56:55,755 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:58977, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,58977,1084569927983100
+
+2022-11-30 11:56:55,755 INFO send udp packet: 192.168.124.1,58977,1084569927983100
+
+2022-11-30 11:56:55,763 INFO received ack: {"type": "push-ack", "lastRefTime":"1084569927983100", "data":""} from: 192.168.124.1:58977, cost: 8 ms, unacked: 0, total push: 1
+
+2022-11-30 11:56:58,007 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 11:56:58,008 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:55270, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,55270,1084572183662500
+
+2022-11-30 11:56:58,018 INFO send udp packet: 192.168.124.1,55270,1084572183662500
+
+2022-11-30 11:56:58,020 INFO received ack: {"type": "push-ack", "lastRefTime":"1084572183662500", "data":""} from: 192.168.124.1:55270, cost: 2 ms, unacked: 0, total push: 2
+
+2022-11-30 12:02:27,427 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 12:02:27,427 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:58977, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,58977,1084901603658899
+
+2022-11-30 12:02:27,427 INFO send udp packet: 192.168.124.1,58977,1084901603658899
+
+2022-11-30 12:02:27,433 INFO received ack: {"type": "push-ack", "lastRefTime":"1084901603658899", "data":""} from: 192.168.124.1:58977, cost: 6 ms, unacked: 0, total push: 3
+
+2022-11-30 12:02:27,459 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 12:02:27,459 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:55270, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,55270,1084901635287800
+
+2022-11-30 12:02:27,459 INFO send udp packet: 192.168.124.1,55270,1084901635287800
+
+2022-11-30 12:02:27,464 INFO received ack: {"type": "push-ack", "lastRefTime":"1084901635287800", "data":""} from: 192.168.124.1:55270, cost: 5 ms, unacked: 0, total push: 4
+
+2022-11-30 12:02:36,830 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 12:02:36,831 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:60075, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,60075,1084911006361299
+
+2022-11-30 12:02:36,831 INFO send udp packet: 192.168.124.1,60075,1084911006361299
+
+2022-11-30 12:02:36,831 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:55270, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,55270,1084911006361299
+
+2022-11-30 12:02:36,832 INFO send udp packet: 192.168.124.1,55270,1084911006361299
+
+2022-11-30 12:02:36,835 INFO received ack: {"type": "push-ack", "lastRefTime":"1084911006361299", "data":""} from: 192.168.124.1:60075, cost: 4 ms, unacked: 1, total push: 6
+
+2022-11-30 12:02:40,565 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 12:02:40,566 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:60076, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,60076,1084914740800200
+
+2022-11-30 12:02:40,566 INFO send udp packet: 192.168.124.1,60076,1084914740800200
+
+2022-11-30 12:02:40,569 INFO received ack: {"type": "push-ack", "lastRefTime":"1084914740800200", "data":""} from: 192.168.124.1:60076, cost: 3 ms, unacked: 1, total push: 7
+
+2022-11-30 12:02:46,844 INFO retry to push data, key: 192.168.124.1,55270,1084911006361299
+
+2022-11-30 12:02:46,844 INFO send udp packet: 192.168.124.1,55270,1084911006361299
+
+2022-11-30 12:02:56,859 INFO retry to push data, key: 192.168.124.1,55270,1084911006361299
+
+2022-11-30 12:02:56,859 WARN max re-push times reached, retry times 2, key: 192.168.124.1,55270,1084911006361299
+
+2022-11-30 12:04:07,539 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 12:04:07,539 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:51990, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,51990,1085001715387400
+
+2022-11-30 12:04:07,539 INFO send udp packet: 192.168.124.1,51990,1085001715387400
+
+2022-11-30 12:04:07,541 INFO received ack: {"type": "push-ack", "lastRefTime":"1085001715387400", "data":""} from: 192.168.124.1:51990, cost: 2 ms, unacked: 0, total push: 8
+
+2022-11-30 12:24:14,810 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 12:24:14,811 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:60076, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,60076,1086208986323300
+
+2022-11-30 12:24:14,811 INFO send udp packet: 192.168.124.1,60076,1086208986323300
+
+2022-11-30 12:24:14,811 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 12:24:14,812 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:60075, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,60075,1086208987851700
+
+2022-11-30 12:24:14,812 INFO send udp packet: 192.168.124.1,60075,1086208987851700
+
+2022-11-30 12:24:14,818 INFO received ack: {"type": "push-ack", "lastRefTime":"1086208986323300", "data":""} from: 192.168.124.1:60076, cost: 7 ms, unacked: 1, total push: 10
+
+2022-11-30 12:24:14,818 INFO received ack: {"type": "push-ack", "lastRefTime":"1086208987851700", "data":""} from: 192.168.124.1:60075, cost: 6 ms, unacked: 0, total push: 10
+
+2022-11-30 12:24:14,826 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 12:24:14,826 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:51990, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,51990,1086209002070500
+
+2022-11-30 12:24:14,826 INFO send udp packet: 192.168.124.1,51990,1086209002070500
+
+2022-11-30 12:24:14,831 INFO received ack: {"type": "push-ack", "lastRefTime":"1086209002070500", "data":""} from: 192.168.124.1:51990, cost: 5 ms, unacked: 0, total push: 11
+
+2022-11-30 12:24:27,975 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 12:24:27,975 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:56752, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,56752,1086222151308400
+
+2022-11-30 12:24:27,975 INFO send udp packet: 192.168.124.1,56752,1086222151308400
+
+2022-11-30 12:24:27,975 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:60075, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,60075,1086222151308400
+
+2022-11-30 12:24:27,975 INFO send udp packet: 192.168.124.1,60075,1086222151308400
+
+2022-11-30 12:24:27,978 INFO received ack: {"type": "push-ack", "lastRefTime":"1086222151308400", "data":""} from: 192.168.124.1:56752, cost: 3 ms, unacked: 1, total push: 13
+
+2022-11-30 12:24:29,977 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 12:24:29,977 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:62013, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62013,1086224153513300
+
+2022-11-30 12:24:29,977 INFO send udp packet: 192.168.124.1,62013,1086224153513300
+
+2022-11-30 12:24:29,981 INFO received ack: {"type": "push-ack", "lastRefTime":"1086224153513300", "data":""} from: 192.168.124.1:62013, cost: 4 ms, unacked: 1, total push: 14
+
+2022-11-30 12:24:37,989 INFO retry to push data, key: 192.168.124.1,60075,1086222151308400
+
+2022-11-30 12:24:37,989 INFO send udp packet: 192.168.124.1,60075,1086222151308400
+
+2022-11-30 12:24:47,991 INFO retry to push data, key: 192.168.124.1,60075,1086222151308400
+
+2022-11-30 12:24:47,991 WARN max re-push times reached, retry times 2, key: 192.168.124.1,60075,1086222151308400
+
+2022-11-30 12:27:28,422 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 12:27:28,422 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:60026, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,60026,1086402598024400
+
+2022-11-30 12:27:28,422 INFO send udp packet: 192.168.124.1,60026,1086402598024400
+
+2022-11-30 12:27:28,424 INFO received ack: {"type": "push-ack", "lastRefTime":"1086402598024400", "data":""} from: 192.168.124.1:60026, cost: 2 ms, unacked: 0, total push: 15
+
+2022-11-30 12:32:45,507 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 12:32:45,507 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:60026, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,60026,1086719682892000
+
+2022-11-30 12:32:45,507 INFO send udp packet: 192.168.124.1,60026,1086719682892000
+
+2022-11-30 12:32:45,514 INFO received ack: {"type": "push-ack", "lastRefTime":"1086719682892000", "data":""} from: 192.168.124.1:60026, cost: 7 ms, unacked: 0, total push: 16
+
+2022-11-30 12:32:47,589 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 12:32:47,589 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:56752, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,56752,1086721765077099
+
+2022-11-30 12:32:47,589 INFO send udp packet: 192.168.124.1,56752,1086721765077099
+
+2022-11-30 12:32:47,596 INFO received ack: {"type": "push-ack", "lastRefTime":"1086721765077099", "data":""} from: 192.168.124.1:56752, cost: 7 ms, unacked: 0, total push: 17
+
+2022-11-30 12:33:04,300 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 12:33:04,300 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:62013, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62013,1086738476625500
+
+2022-11-30 12:33:04,300 INFO send udp packet: 192.168.124.1,62013,1086738476625500
+
+2022-11-30 12:33:04,306 INFO received ack: {"type": "push-ack", "lastRefTime":"1086738476625500", "data":""} from: 192.168.124.1:62013, cost: 6 ms, unacked: 0, total push: 18
+
+2022-11-30 12:34:27,582 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 12:34:27,583 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:54972, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54972,1086821758321499
+
+2022-11-30 12:34:27,583 INFO send udp packet: 192.168.124.1,54972,1086821758321499
+
+2022-11-30 12:34:27,587 INFO received ack: {"type": "push-ack", "lastRefTime":"1086821758321499", "data":""} from: 192.168.124.1:54972, cost: 4 ms, unacked: 0, total push: 19
+
+2022-11-30 12:34:29,695 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 12:34:29,695 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:54973, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54973,1086823871203400
+
+2022-11-30 12:34:29,695 INFO send udp packet: 192.168.124.1,54973,1086823871203400
+
+2022-11-30 12:34:29,698 INFO received ack: {"type": "push-ack", "lastRefTime":"1086823871203400", "data":""} from: 192.168.124.1:54973, cost: 3 ms, unacked: 0, total push: 20
+
+2022-11-30 12:34:32,022 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 12:34:32,022 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:54974, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54974,1086826198268299
+
+2022-11-30 12:34:32,022 INFO send udp packet: 192.168.124.1,54974,1086826198268299
+
+2022-11-30 12:34:32,025 INFO received ack: {"type": "push-ack", "lastRefTime":"1086826198268299", "data":""} from: 192.168.124.1:54974, cost: 3 ms, unacked: 0, total push: 21
+
+2022-11-30 12:34:33,486 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 12:34:33,498 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:54972, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54972,1086827662159400
+
+2022-11-30 12:34:33,498 INFO send udp packet: 192.168.124.1,54972,1086827662159400
+
+2022-11-30 12:34:33,498 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:54975, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54975,1086827662159400
+
+2022-11-30 12:34:33,498 INFO send udp packet: 192.168.124.1,54975,1086827662159400
+
+2022-11-30 12:34:33,501 INFO received ack: {"type": "push-ack", "lastRefTime":"1086827662159400", "data":""} from: 192.168.124.1:54975, cost: 3 ms, unacked: 1, total push: 23
+
+2022-11-30 12:34:33,504 INFO received ack: {"type": "push-ack", "lastRefTime":"1086827662159400", "data":""} from: 192.168.124.1:54972, cost: 6 ms, unacked: 0, total push: 23
+
+2022-11-30 12:34:35,053 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 12:34:35,053 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:54973, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54973,1086829228728000
+
+2022-11-30 12:34:35,053 INFO send udp packet: 192.168.124.1,54973,1086829228728000
+
+2022-11-30 12:34:35,053 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:54976, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54976,1086829228728000
+
+2022-11-30 12:34:35,053 INFO send udp packet: 192.168.124.1,54976,1086829228728000
+
+2022-11-30 12:34:35,056 INFO received ack: {"type": "push-ack", "lastRefTime":"1086829228728000", "data":""} from: 192.168.124.1:54976, cost: 3 ms, unacked: 1, total push: 25
+
+2022-11-30 12:34:35,058 INFO received ack: {"type": "push-ack", "lastRefTime":"1086829228728000", "data":""} from: 192.168.124.1:54973, cost: 5 ms, unacked: 0, total push: 25
+
+2022-11-30 12:38:27,583 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 12:38:27,583 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:54972, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54972,1087061759308700
+
+2022-11-30 12:38:27,583 INFO send udp packet: 192.168.124.1,54972,1087061759308700
+
+2022-11-30 12:38:27,584 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:54975, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54975,1087061759308700
+
+2022-11-30 12:38:27,584 INFO send udp packet: 192.168.124.1,54975,1087061759308700
+
+2022-11-30 12:38:27,590 INFO received ack: {"type": "push-ack", "lastRefTime":"1087061759308700", "data":""} from: 192.168.124.1:54972, cost: 7 ms, unacked: 1, total push: 27
+
+2022-11-30 12:38:27,590 INFO received ack: {"type": "push-ack", "lastRefTime":"1087061759308700", "data":""} from: 192.168.124.1:54975, cost: 6 ms, unacked: 0, total push: 27
+
+2022-11-30 12:38:37,835 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 12:38:37,835 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:62029, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62029,1087072011138400
+
+2022-11-30 12:38:37,836 INFO send udp packet: 192.168.124.1,62029,1087072011138400
+
+2022-11-30 12:38:37,836 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:54972, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54972,1087072011138400
+
+2022-11-30 12:38:37,836 INFO send udp packet: 192.168.124.1,54972,1087072011138400
+
+2022-11-30 12:38:37,838 INFO received ack: {"type": "push-ack", "lastRefTime":"1087072011138400", "data":""} from: 192.168.124.1:62029, cost: 2 ms, unacked: 1, total push: 29
+
+2022-11-30 12:38:39,955 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 12:38:39,955 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:62172, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62172,1087074131336700
+
+2022-11-30 12:38:39,955 INFO send udp packet: 192.168.124.1,62172,1087074131336700
+
+2022-11-30 12:38:39,956 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:62029, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62029,1087074131336700
+
+2022-11-30 12:38:39,956 INFO send udp packet: 192.168.124.1,62029,1087074131336700
+
+2022-11-30 12:38:39,958 INFO received ack: {"type": "push-ack", "lastRefTime":"1087074131336700", "data":""} from: 192.168.124.1:62172, cost: 3 ms, unacked: 2, total push: 31
+
+2022-11-30 12:38:39,960 INFO received ack: {"type": "push-ack", "lastRefTime":"1087074131336700", "data":""} from: 192.168.124.1:62029, cost: 4 ms, unacked: 1, total push: 31
+
+2022-11-30 12:38:47,843 INFO retry to push data, key: 192.168.124.1,54972,1087072011138400
+
+2022-11-30 12:38:47,843 INFO send udp packet: 192.168.124.1,54972,1087072011138400
+
+2022-11-30 12:38:57,855 INFO retry to push data, key: 192.168.124.1,54972,1087072011138400
+
+2022-11-30 12:38:57,855 WARN max re-push times reached, retry times 2, key: 192.168.124.1,54972,1087072011138400
+
+2022-11-30 12:52:03,096 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 12:52:03,096 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:54974, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54974,1087877271925699
+
+2022-11-30 12:52:03,096 INFO send udp packet: 192.168.124.1,54974,1087877271925699
+
+2022-11-30 12:52:03,097 INFO received ack: {"type": "push-ack", "lastRefTime":"1087877271925699", "data":""} from: 192.168.124.1:54974, cost: 1 ms, unacked: 0, total push: 32
+
+2022-11-30 12:52:16,379 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 12:52:16,379 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:62556, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62556,1087890555469099
+
+2022-11-30 12:52:16,379 INFO send udp packet: 192.168.124.1,62556,1087890555469099
+
+2022-11-30 12:52:16,382 INFO received ack: {"type": "push-ack", "lastRefTime":"1087890555469099", "data":""} from: 192.168.124.1:62556, cost: 3 ms, unacked: 0, total push: 33
+
+2022-11-30 12:52:22,154 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 12:52:22,154 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:62556, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62556,1087896330509700
+
+2022-11-30 12:52:22,154 INFO send udp packet: 192.168.124.1,62556,1087896330509700
+
+2022-11-30 12:52:22,154 INFO received ack: {"type": "push-ack", "lastRefTime":"1087896330509700", "data":""} from: 192.168.124.1:62556, cost: 0 ms, unacked: 0, total push: 34
+
+2022-11-30 12:53:53,912 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 12:53:53,912 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:62556, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62556,1087988087884499
+
+2022-11-30 12:53:53,912 INFO send udp packet: 192.168.124.1,62556,1087988087884499
+
+2022-11-30 12:53:53,913 INFO received ack: {"type": "push-ack", "lastRefTime":"1087988087884499", "data":""} from: 192.168.124.1:62556, cost: 1 ms, unacked: 0, total push: 35
+
+2022-11-30 12:53:57,493 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 12:54:15,466 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 12:54:15,466 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:56964, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,56964,1088009642491099
+
+2022-11-30 12:54:15,466 INFO send udp packet: 192.168.124.1,56964,1088009642491099
+
+2022-11-30 12:54:15,469 INFO received ack: {"type": "push-ack", "lastRefTime":"1088009642491099", "data":""} from: 192.168.124.1:56964, cost: 3 ms, unacked: 0, total push: 36
+
+2022-11-30 12:54:28,365 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 12:54:28,365 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:56964, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,56964,1088022541264399
+
+2022-11-30 12:54:28,365 INFO send udp packet: 192.168.124.1,56964,1088022541264399
+
+2022-11-30 12:54:28,366 INFO received ack: {"type": "push-ack", "lastRefTime":"1088022541264399", "data":""} from: 192.168.124.1:56964, cost: 1 ms, unacked: 0, total push: 37
+
+2022-11-30 13:27:25,715 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 13:27:25,715 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 13:27:28,784 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 13:27:29,065 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 13:27:29,065 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:54976, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54976,1090003265488799
+
+2022-11-30 13:27:29,065 INFO send udp packet: 192.168.124.1,54976,1090003265488799
+
+2022-11-30 13:27:29,068 INFO received ack: {"type": "push-ack", "lastRefTime":"1090003265488799", "data":""} from: 192.168.124.1:54976, cost: 3 ms, unacked: 0, total push: 38
+
+2022-11-30 13:34:39,597 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 13:34:39,597 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:62172, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62172,1090433797646600
+
+2022-11-30 13:34:39,597 INFO send udp packet: 192.168.124.1,62172,1090433797646600
+
+2022-11-30 13:34:39,597 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:62029, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62029,1090433797646600
+
+2022-11-30 13:34:39,597 INFO send udp packet: 192.168.124.1,62029,1090433797646600
+
+2022-11-30 13:34:39,598 INFO received ack: {"type": "push-ack", "lastRefTime":"1090433797646600", "data":""} from: 192.168.124.1:62029, cost: 1 ms, unacked: 1, total push: 40
+
+2022-11-30 13:34:39,602 INFO received ack: {"type": "push-ack", "lastRefTime":"1090433797646600", "data":""} from: 192.168.124.1:62172, cost: 5 ms, unacked: 0, total push: 40
+
+2022-11-30 13:34:39,628 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 13:34:39,628 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:54973, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54973,1090433828811100
+
+2022-11-30 13:34:39,628 INFO send udp packet: 192.168.124.1,54973,1090433828811100
+
+2022-11-30 13:34:39,628 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:54976, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,54976,1090433828811100
+
+2022-11-30 13:34:39,628 INFO send udp packet: 192.168.124.1,54976,1090433828811100
+
+2022-11-30 13:34:39,634 INFO received ack: {"type": "push-ack", "lastRefTime":"1090433828811100", "data":""} from: 192.168.124.1:54976, cost: 6 ms, unacked: 1, total push: 42
+
+2022-11-30 13:34:39,634 INFO received ack: {"type": "push-ack", "lastRefTime":"1090433828811100", "data":""} from: 192.168.124.1:54973, cost: 6 ms, unacked: 0, total push: 42
+
+2022-11-30 13:34:52,099 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 13:34:52,099 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:53758, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,53758,1090446300105300
+
+2022-11-30 13:34:52,099 INFO send udp packet: 192.168.124.1,53758,1090446300105300
+
+2022-11-30 13:34:52,101 INFO received ack: {"type": "push-ack", "lastRefTime":"1090446300105300", "data":""} from: 192.168.124.1:53758, cost: 2 ms, unacked: 0, total push: 43
+
+2022-11-30 13:34:53,537 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 13:34:53,537 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:53759, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,53759,1090447737660300
+
+2022-11-30 13:34:53,537 INFO send udp packet: 192.168.124.1,53759,1090447737660300
+
+2022-11-30 13:34:53,539 INFO received ack: {"type": "push-ack", "lastRefTime":"1090447737660300", "data":""} from: 192.168.124.1:53759, cost: 2 ms, unacked: 0, total push: 44
+
+2022-11-30 13:34:55,435 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 13:34:55,435 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:53760, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,53760,1090449635283300
+
+2022-11-30 13:34:55,435 INFO send udp packet: 192.168.124.1,53760,1090449635283300
+
+2022-11-30 13:34:55,435 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:53759, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,53759,1090449635283300
+
+2022-11-30 13:34:55,435 INFO send udp packet: 192.168.124.1,53759,1090449635283300
+
+2022-11-30 13:34:55,436 INFO received ack: {"type": "push-ack", "lastRefTime":"1090449635283300", "data":""} from: 192.168.124.1:53759, cost: 1 ms, unacked: 1, total push: 46
+
+2022-11-30 13:34:55,437 INFO received ack: {"type": "push-ack", "lastRefTime":"1090449635283300", "data":""} from: 192.168.124.1:53760, cost: 2 ms, unacked: 0, total push: 46
+
+2022-11-30 13:34:57,145 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 13:34:57,145 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:53761, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,53761,1090451345792900
+
+2022-11-30 13:34:57,145 INFO send udp packet: 192.168.124.1,53761,1090451345792900
+
+2022-11-30 13:34:57,145 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:53758, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,53758,1090451345792900
+
+2022-11-30 13:34:57,145 INFO send udp packet: 192.168.124.1,53758,1090451345792900
+
+2022-11-30 13:34:57,146 INFO received ack: {"type": "push-ack", "lastRefTime":"1090451345792900", "data":""} from: 192.168.124.1:53758, cost: 1 ms, unacked: 1, total push: 48
+
+2022-11-30 13:34:57,147 INFO received ack: {"type": "push-ack", "lastRefTime":"1090451345792900", "data":""} from: 192.168.124.1:53761, cost: 2 ms, unacked: 0, total push: 48
+
+2022-11-30 13:38:15,997 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 13:38:17,479 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 13:38:17,486 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:53758, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,53758,1090651679940800
+
+2022-11-30 13:38:17,486 INFO send udp packet: 192.168.124.1,53758,1090651679940800
+
+2022-11-30 13:38:17,492 INFO received ack: {"type": "push-ack", "lastRefTime":"1090651679940800", "data":""} from: 192.168.124.1:53758, cost: 6 ms, unacked: 0, total push: 1
+
+2022-11-30 13:38:18,976 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 13:38:18,976 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:53759, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,53759,1090653176778800
+
+2022-11-30 13:38:18,976 INFO send udp packet: 192.168.124.1,53759,1090653176778800
+
+2022-11-30 13:38:18,980 INFO received ack: {"type": "push-ack", "lastRefTime":"1090653176778800", "data":""} from: 192.168.124.1:53759, cost: 4 ms, unacked: 0, total push: 2
+
+2022-11-30 13:38:30,407 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 13:38:30,407 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:50273, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,50273,1090664607895900
+
+2022-11-30 13:38:30,407 INFO send udp packet: 192.168.124.1,50273,1090664607895900
+
+2022-11-30 13:38:30,408 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:56964, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,56964,1090664607895900
+
+2022-11-30 13:38:30,408 INFO send udp packet: 192.168.124.1,56964,1090664607895900
+
+2022-11-30 13:38:30,410 INFO received ack: {"type": "push-ack", "lastRefTime":"1090664607895900", "data":""} from: 192.168.124.1:50273, cost: 3 ms, unacked: 1, total push: 4
+
+2022-11-30 13:38:38,239 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 13:38:38,239 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:50273, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,50273,1090672439838300
+
+2022-11-30 13:38:38,239 INFO send udp packet: 192.168.124.1,50273,1090672439838300
+
+2022-11-30 13:38:38,240 INFO received ack: {"type": "push-ack", "lastRefTime":"1090672439838300", "data":""} from: 192.168.124.1:50273, cost: 1 ms, unacked: 1, total push: 5
+
+2022-11-30 13:38:40,416 INFO retry to push data, key: 192.168.124.1,56964,1090664607895900
+
+2022-11-30 13:38:40,416 INFO send udp packet: 192.168.124.1,56964,1090664607895900
+
+2022-11-30 13:38:50,426 INFO retry to push data, key: 192.168.124.1,56964,1090664607895900
+
+2022-11-30 13:38:50,426 WARN max re-push times reached, retry times 2, key: 192.168.124.1,56964,1090664607895900
+
+2022-11-30 13:40:45,241 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 13:40:45,241 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:50273, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,50273,1090799441922399
+
+2022-11-30 13:40:45,241 INFO send udp packet: 192.168.124.1,50273,1090799441922399
+
+2022-11-30 13:40:45,243 INFO received ack: {"type": "push-ack", "lastRefTime":"1090799441922399", "data":""} from: 192.168.124.1:50273, cost: 2 ms, unacked: 0, total push: 6
+
+2022-11-30 13:40:48,380 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 13:40:48,380 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:50273, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,50273,1090802580811200
+
+2022-11-30 13:40:48,380 INFO send udp packet: 192.168.124.1,50273,1090802580811200
+
+2022-11-30 13:40:48,381 INFO received ack: {"type": "push-ack", "lastRefTime":"1090802580811200", "data":""} from: 192.168.124.1:50273, cost: 1 ms, unacked: 0, total push: 7
+
+2022-11-30 13:40:56,211 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 13:40:56,213 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1090810411727000
+
+2022-11-30 13:40:56,213 INFO send udp packet: 192.168.124.1,61789,1090810411727000
+
+2022-11-30 13:40:56,216 INFO received ack: {"type": "push-ack", "lastRefTime":"1090810411727000", "data":""} from: 192.168.124.1:61789, cost: 3 ms, unacked: 0, total push: 8
+
+2022-11-30 13:41:03,590 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 13:41:03,590 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1090817790682600
+
+2022-11-30 13:41:03,590 INFO send udp packet: 192.168.124.1,61789,1090817790682600
+
+2022-11-30 13:41:03,591 INFO received ack: {"type": "push-ack", "lastRefTime":"1090817790682600", "data":""} from: 192.168.124.1:61789, cost: 1 ms, unacked: 0, total push: 9
+
+2022-11-30 13:48:53,596 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 13:48:53,596 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1091287797093899
+
+2022-11-30 13:48:53,596 INFO send udp packet: 192.168.124.1,61789,1091287797093899
+
+2022-11-30 13:48:53,596 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:53760, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,53760,1091287797093899
+
+2022-11-30 13:48:53,596 INFO send udp packet: 192.168.124.1,53760,1091287797093899
+
+2022-11-30 13:48:53,596 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:53759, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,53759,1091287797093899
+
+2022-11-30 13:48:53,596 INFO send udp packet: 192.168.124.1,53759,1091287797093899
+
+2022-11-30 13:48:53,602 INFO received ack: {"type": "push-ack", "lastRefTime":"1091287797093899", "data":""} from: 192.168.124.1:53759, cost: 6 ms, unacked: 2, total push: 12
+
+2022-11-30 13:48:53,602 INFO received ack: {"type": "push-ack", "lastRefTime":"1091287797093899", "data":""} from: 192.168.124.1:53760, cost: 6 ms, unacked: 1, total push: 12
+
+2022-11-30 13:48:53,602 INFO received ack: {"type": "push-ack", "lastRefTime":"1091287797093899", "data":""} from: 192.168.124.1:61789, cost: 6 ms, unacked: 0, total push: 12
+
+2022-11-30 13:49:05,695 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 13:49:05,695 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1091299895878600
+
+2022-11-30 13:49:05,695 INFO send udp packet: 192.168.124.1,61789,1091299895878600
+
+2022-11-30 13:49:05,695 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:62813, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62813,1091299895878600
+
+2022-11-30 13:49:05,695 INFO send udp packet: 192.168.124.1,62813,1091299895878600
+
+2022-11-30 13:49:05,696 INFO received ack: {"type": "push-ack", "lastRefTime":"1091299895878600", "data":""} from: 192.168.124.1:61789, cost: 1 ms, unacked: 1, total push: 14
+
+2022-11-30 13:49:05,697 INFO received ack: {"type": "push-ack", "lastRefTime":"1091299895878600", "data":""} from: 192.168.124.1:62813, cost: 2 ms, unacked: 0, total push: 14
+
+2022-11-30 13:49:07,640 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 13:49:07,640 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1091301840678999
+
+2022-11-30 13:49:07,641 INFO send udp packet: 192.168.124.1,61789,1091301840678999
+
+2022-11-30 13:49:07,641 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:62814, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62814,1091301840678999
+
+2022-11-30 13:49:07,641 INFO send udp packet: 192.168.124.1,62814,1091301840678999
+
+2022-11-30 13:49:07,641 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:62813, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62813,1091301840678999
+
+2022-11-30 13:49:07,641 INFO send udp packet: 192.168.124.1,62813,1091301840678999
+
+2022-11-30 13:49:07,642 INFO received ack: {"type": "push-ack", "lastRefTime":"1091301840678999", "data":""} from: 192.168.124.1:62813, cost: 1 ms, unacked: 2, total push: 17
+
+2022-11-30 13:49:07,643 INFO received ack: {"type": "push-ack", "lastRefTime":"1091301840678999", "data":""} from: 192.168.124.1:62814, cost: 2 ms, unacked: 1, total push: 17
+
+2022-11-30 13:49:07,648 INFO received ack: {"type": "push-ack", "lastRefTime":"1091301840678999", "data":""} from: 192.168.124.1:61789, cost: 7 ms, unacked: 0, total push: 17
+
+2022-11-30 13:58:36,515 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 13:58:36,515 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1091870715240000
+
+2022-11-30 13:58:36,515 INFO send udp packet: 192.168.124.1,61789,1091870715240000
+
+2022-11-30 13:58:36,515 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:62814, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62814,1091870715240000
+
+2022-11-30 13:58:36,515 INFO send udp packet: 192.168.124.1,62814,1091870715240000
+
+2022-11-30 13:58:36,515 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:62813, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62813,1091870715240000
+
+2022-11-30 13:58:36,515 INFO send udp packet: 192.168.124.1,62813,1091870715240000
+
+2022-11-30 13:58:36,516 INFO received ack: {"type": "push-ack", "lastRefTime":"1091870715240000", "data":""} from: 192.168.124.1:61789, cost: 1 ms, unacked: 2, total push: 20
+
+2022-11-30 13:58:36,516 INFO received ack: {"type": "push-ack", "lastRefTime":"1091870715240000", "data":""} from: 192.168.124.1:62813, cost: 1 ms, unacked: 1, total push: 20
+
+2022-11-30 13:58:36,521 INFO received ack: {"type": "push-ack", "lastRefTime":"1091870715240000", "data":""} from: 192.168.124.1:62814, cost: 6 ms, unacked: 0, total push: 20
+
+2022-11-30 13:58:46,813 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 13:58:46,813 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1091881013952000
+
+2022-11-30 13:58:46,813 INFO send udp packet: 192.168.124.1,61789,1091881013952000
+
+2022-11-30 13:58:46,813 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:62814, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62814,1091881013952000
+
+2022-11-30 13:58:46,813 INFO send udp packet: 192.168.124.1,62814,1091881013952000
+
+2022-11-30 13:58:46,813 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:65273, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,65273,1091881013952000
+
+2022-11-30 13:58:46,813 INFO send udp packet: 192.168.124.1,65273,1091881013952000
+
+2022-11-30 13:58:46,818 INFO received ack: {"type": "push-ack", "lastRefTime":"1091881013952000", "data":""} from: 192.168.124.1:65273, cost: 5 ms, unacked: 2, total push: 23
+
+2022-11-30 13:58:46,820 INFO received ack: {"type": "push-ack", "lastRefTime":"1091881013952000", "data":""} from: 192.168.124.1:61789, cost: 7 ms, unacked: 1, total push: 23
+
+2022-11-30 13:58:48,479 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 13:58:48,479 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1091882680073000
+
+2022-11-30 13:58:48,479 INFO send udp packet: 192.168.124.1,61789,1091882680073000
+
+2022-11-30 13:58:48,479 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:65274, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,65274,1091882680073000
+
+2022-11-30 13:58:48,479 INFO send udp packet: 192.168.124.1,65274,1091882680073000
+
+2022-11-30 13:58:48,479 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:65273, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,65273,1091882680073000
+
+2022-11-30 13:58:48,479 INFO send udp packet: 192.168.124.1,65273,1091882680073000
+
+2022-11-30 13:58:48,480 INFO received ack: {"type": "push-ack", "lastRefTime":"1091882680073000", "data":""} from: 192.168.124.1:65273, cost: 1 ms, unacked: 3, total push: 26
+
+2022-11-30 13:58:48,482 INFO received ack: {"type": "push-ack", "lastRefTime":"1091882680073000", "data":""} from: 192.168.124.1:65274, cost: 3 ms, unacked: 2, total push: 26
+
+2022-11-30 13:58:48,485 INFO received ack: {"type": "push-ack", "lastRefTime":"1091882680073000", "data":""} from: 192.168.124.1:61789, cost: 6 ms, unacked: 1, total push: 26
+
+2022-11-30 13:58:56,819 INFO retry to push data, key: 192.168.124.1,62814,1091881013952000
+
+2022-11-30 13:58:56,819 INFO send udp packet: 192.168.124.1,62814,1091881013952000
+
+2022-11-30 13:59:06,835 INFO retry to push data, key: 192.168.124.1,62814,1091881013952000
+
+2022-11-30 13:59:06,835 WARN max re-push times reached, retry times 2, key: 192.168.124.1,62814,1091881013952000
+
+2022-11-30 14:02:07,367 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 14:02:07,367 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1092081567607200
+
+2022-11-30 14:02:07,367 INFO send udp packet: 192.168.124.1,61789,1092081567607200
+
+2022-11-30 14:02:07,367 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:65274, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,65274,1092081567607200
+
+2022-11-30 14:02:07,367 INFO send udp packet: 192.168.124.1,65274,1092081567607200
+
+2022-11-30 14:02:07,367 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:65273, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,65273,1092081567607200
+
+2022-11-30 14:02:07,367 INFO send udp packet: 192.168.124.1,65273,1092081567607200
+
+2022-11-30 14:02:07,369 INFO received ack: {"type": "push-ack", "lastRefTime":"1092081567607200", "data":""} from: 192.168.124.1:65273, cost: 2 ms, unacked: 2, total push: 29
+
+2022-11-30 14:02:07,371 INFO received ack: {"type": "push-ack", "lastRefTime":"1092081567607200", "data":""} from: 192.168.124.1:61789, cost: 4 ms, unacked: 1, total push: 29
+
+2022-11-30 14:02:07,382 INFO received ack: {"type": "push-ack", "lastRefTime":"1092081567607200", "data":""} from: 192.168.124.1:65274, cost: 15 ms, unacked: 0, total push: 29
+
+2022-11-30 14:02:18,429 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 14:02:18,429 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1092092629690800
+
+2022-11-30 14:02:18,429 INFO send udp packet: 192.168.124.1,61789,1092092629690800
+
+2022-11-30 14:02:18,429 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:56376, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,56376,1092092629690800
+
+2022-11-30 14:02:18,429 INFO send udp packet: 192.168.124.1,56376,1092092629690800
+
+2022-11-30 14:02:18,429 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:65274, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,65274,1092092629690800
+
+2022-11-30 14:02:18,429 INFO send udp packet: 192.168.124.1,65274,1092092629690800
+
+2022-11-30 14:02:18,429 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:65273, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,65273,1092092629690800
+
+2022-11-30 14:02:18,429 INFO send udp packet: 192.168.124.1,65273,1092092629690800
+
+2022-11-30 14:02:18,432 INFO received ack: {"type": "push-ack", "lastRefTime":"1092092629690800", "data":""} from: 192.168.124.1:56376, cost: 3 ms, unacked: 3, total push: 33
+
+2022-11-30 14:02:18,434 INFO received ack: {"type": "push-ack", "lastRefTime":"1092092629690800", "data":""} from: 192.168.124.1:61789, cost: 5 ms, unacked: 2, total push: 33
+
+2022-11-30 14:02:21,071 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 14:02:21,071 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1092095272011000
+
+2022-11-30 14:02:21,071 INFO send udp packet: 192.168.124.1,61789,1092095272011000
+
+2022-11-30 14:02:21,071 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:56376, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,56376,1092095272011000
+
+2022-11-30 14:02:21,071 INFO send udp packet: 192.168.124.1,56376,1092095272011000
+
+2022-11-30 14:02:21,071 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:56377, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,56377,1092095272011000
+
+2022-11-30 14:02:21,071 INFO send udp packet: 192.168.124.1,56377,1092095272011000
+
+2022-11-30 14:02:21,072 INFO received ack: {"type": "push-ack", "lastRefTime":"1092095272011000", "data":""} from: 192.168.124.1:56376, cost: 1 ms, unacked: 4, total push: 36
+
+2022-11-30 14:02:21,074 INFO received ack: {"type": "push-ack", "lastRefTime":"1092095272011000", "data":""} from: 192.168.124.1:56377, cost: 3 ms, unacked: 3, total push: 36
+
+2022-11-30 14:02:21,076 INFO received ack: {"type": "push-ack", "lastRefTime":"1092095272011000", "data":""} from: 192.168.124.1:61789, cost: 5 ms, unacked: 2, total push: 36
+
+2022-11-30 14:02:28,432 INFO retry to push data, key: 192.168.124.1,65274,1092092629690800
+
+2022-11-30 14:02:28,432 INFO send udp packet: 192.168.124.1,65274,1092092629690800
+
+2022-11-30 14:02:28,432 INFO retry to push data, key: 192.168.124.1,65273,1092092629690800
+
+2022-11-30 14:02:28,432 INFO send udp packet: 192.168.124.1,65273,1092092629690800
+
+2022-11-30 14:02:38,433 INFO retry to push data, key: 192.168.124.1,65274,1092092629690800
+
+2022-11-30 14:02:38,433 WARN max re-push times reached, retry times 2, key: 192.168.124.1,65274,1092092629690800
+
+2022-11-30 14:02:38,433 INFO retry to push data, key: 192.168.124.1,65273,1092092629690800
+
+2022-11-30 14:02:38,433 WARN max re-push times reached, retry times 2, key: 192.168.124.1,65273,1092092629690800
+
+2022-11-30 14:06:25,636 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 14:06:25,636 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:53761, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,53761,1092339836559200
+
+2022-11-30 14:06:25,636 INFO send udp packet: 192.168.124.1,53761,1092339836559200
+
+2022-11-30 14:06:25,636 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:53758, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,53758,1092339836559200
+
+2022-11-30 14:06:25,636 INFO send udp packet: 192.168.124.1,53758,1092339836559200
+
+2022-11-30 14:06:25,637 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1092339836559200
+
+2022-11-30 14:06:25,637 INFO send udp packet: 192.168.124.1,61789,1092339836559200
+
+2022-11-30 14:06:25,642 INFO received ack: {"type": "push-ack", "lastRefTime":"1092339836559200", "data":""} from: 192.168.124.1:53761, cost: 6 ms, unacked: 2, total push: 39
+
+2022-11-30 14:06:25,643 INFO received ack: {"type": "push-ack", "lastRefTime":"1092339836559200", "data":""} from: 192.168.124.1:53758, cost: 7 ms, unacked: 1, total push: 39
+
+2022-11-30 14:06:25,643 INFO received ack: {"type": "push-ack", "lastRefTime":"1092339836559200", "data":""} from: 192.168.124.1:61789, cost: 6 ms, unacked: 0, total push: 39
+
+2022-11-30 14:06:25,683 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 14:06:25,683 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1092339883844000
+
+2022-11-30 14:06:25,683 INFO send udp packet: 192.168.124.1,61789,1092339883844000
+
+2022-11-30 14:06:25,683 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:56376, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,56376,1092339883844000
+
+2022-11-30 14:06:25,683 INFO send udp packet: 192.168.124.1,56376,1092339883844000
+
+2022-11-30 14:06:25,683 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:56377, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,56377,1092339883844000
+
+2022-11-30 14:06:25,683 INFO send udp packet: 192.168.124.1,56377,1092339883844000
+
+2022-11-30 14:06:25,690 INFO received ack: {"type": "push-ack", "lastRefTime":"1092339883844000", "data":""} from: 192.168.124.1:61789, cost: 7 ms, unacked: 2, total push: 42
+
+2022-11-30 14:06:25,690 INFO received ack: {"type": "push-ack", "lastRefTime":"1092339883844000", "data":""} from: 192.168.124.1:56376, cost: 7 ms, unacked: 1, total push: 42
+
+2022-11-30 14:06:25,690 INFO received ack: {"type": "push-ack", "lastRefTime":"1092339883844000", "data":""} from: 192.168.124.1:56377, cost: 7 ms, unacked: 0, total push: 42
+
+2022-11-30 14:06:36,568 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 14:06:36,568 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:60575, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,60575,1092350768217100
+
+2022-11-30 14:06:36,568 INFO send udp packet: 192.168.124.1,60575,1092350768217100
+
+2022-11-30 14:06:36,586 INFO received ack: {"type": "push-ack", "lastRefTime":"1092350768217100", "data":""} from: 192.168.124.1:60575, cost: 18 ms, unacked: 0, total push: 43
+
+2022-11-30 14:06:39,365 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 14:06:39,365 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:63522, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,63522,1092353566271300
+
+2022-11-30 14:06:39,365 INFO send udp packet: 192.168.124.1,63522,1092353566271300
+
+2022-11-30 14:06:39,369 INFO received ack: {"type": "push-ack", "lastRefTime":"1092353566271300", "data":""} from: 192.168.124.1:63522, cost: 4 ms, unacked: 0, total push: 44
+
+2022-11-30 14:06:41,381 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 14:06:41,382 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:57890, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,57890,1092355582065500
+
+2022-11-30 14:06:41,382 INFO send udp packet: 192.168.124.1,57890,1092355582065500
+
+2022-11-30 14:06:41,383 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:63522, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,63522,1092355582065500
+
+2022-11-30 14:06:41,383 INFO send udp packet: 192.168.124.1,63522,1092355582065500
+
+2022-11-30 14:06:41,384 INFO received ack: {"type": "push-ack", "lastRefTime":"1092355582065500", "data":""} from: 192.168.124.1:63522, cost: 1 ms, unacked: 1, total push: 46
+
+2022-11-30 14:06:41,386 INFO received ack: {"type": "push-ack", "lastRefTime":"1092355582065500", "data":""} from: 192.168.124.1:57890, cost: 4 ms, unacked: 0, total push: 46
+
+2022-11-30 14:06:42,597 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 14:06:42,597 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:60575, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,60575,1092356797781700
+
+2022-11-30 14:06:42,597 INFO send udp packet: 192.168.124.1,60575,1092356797781700
+
+2022-11-30 14:06:42,598 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:57891, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,57891,1092356797781700
+
+2022-11-30 14:06:42,598 INFO send udp packet: 192.168.124.1,57891,1092356797781700
+
+2022-11-30 14:06:42,599 INFO received ack: {"type": "push-ack", "lastRefTime":"1092356797781700", "data":""} from: 192.168.124.1:60575, cost: 2 ms, unacked: 1, total push: 48
+
+2022-11-30 14:06:42,600 INFO received ack: {"type": "push-ack", "lastRefTime":"1092356797781700", "data":""} from: 192.168.124.1:57891, cost: 2 ms, unacked: 0, total push: 48
+
+2022-11-30 14:08:25,354 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 14:08:25,354 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:61789, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,61789,1092459555053800
+
+2022-11-30 14:08:25,354 INFO send udp packet: 192.168.124.1,61789,1092459555053800
+
+2022-11-30 14:08:25,355 INFO received ack: {"type": "push-ack", "lastRefTime":"1092459555053800", "data":""} from: 192.168.124.1:61789, cost: 1 ms, unacked: 0, total push: 49
+
+2022-11-30 14:08:28,449 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 14:08:36,537 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 14:08:36,537 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:62438, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62438,1092470738158300
+
+2022-11-30 14:08:36,538 INFO send udp packet: 192.168.124.1,62438,1092470738158300
+
+2022-11-30 14:08:36,540 INFO received ack: {"type": "push-ack", "lastRefTime":"1092470738158300", "data":""} from: 192.168.124.1:62438, cost: 2 ms, unacked: 0, total push: 50
+
+2022-11-30 14:08:40,797 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 14:08:43,032 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 14:08:43,032 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:62438, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62438,1092477232880899
+
+2022-11-30 14:08:43,032 INFO send udp packet: 192.168.124.1,62438,1092477232880899
+
+2022-11-30 14:08:43,033 INFO received ack: {"type": "push-ack", "lastRefTime":"1092477232880899", "data":""} from: 192.168.124.1:62438, cost: 1 ms, unacked: 0, total push: 51
+
+2022-11-30 14:08:44,302 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 15:23:42,595 INFO DEFAULT_GROUP@@book-service is changed, add it to push queue.
+
+2022-11-30 15:23:42,595 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:60575, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,60575,1096976795683400
+
+2022-11-30 15:23:42,595 INFO send udp packet: 192.168.124.1,60575,1096976795683400
+
+2022-11-30 15:23:42,595 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:57891, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,57891,1096976795683400
+
+2022-11-30 15:23:42,595 INFO send udp packet: 192.168.124.1,57891,1096976795683400
+
+2022-11-30 15:23:42,595 INFO serviceName: DEFAULT_GROUP@@book-service changed, schedule push for: 192.168.124.1:62438, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62438,1096976795683400
+
+2022-11-30 15:23:42,595 INFO send udp packet: 192.168.124.1,62438,1096976795683400
+
+2022-11-30 15:23:42,602 INFO received ack: {"type": "push-ack", "lastRefTime":"1096976795683400", "data":""} from: 192.168.124.1:62438, cost: 7 ms, unacked: 2, total push: 54
+
+2022-11-30 15:23:42,602 INFO received ack: {"type": "push-ack", "lastRefTime":"1096976795683400", "data":""} from: 192.168.124.1:60575, cost: 7 ms, unacked: 1, total push: 54
+
+2022-11-30 15:23:42,602 INFO received ack: {"type": "push-ack", "lastRefTime":"1096976795683400", "data":""} from: 192.168.124.1:57891, cost: 7 ms, unacked: 0, total push: 54
+
+2022-11-30 15:23:42,626 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 15:23:42,626 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:62438, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62438,1096976826450600
+
+2022-11-30 15:23:42,626 INFO send udp packet: 192.168.124.1,62438,1096976826450600
+
+2022-11-30 15:23:42,626 INFO received ack: {"type": "push-ack", "lastRefTime":"1096976826450600", "data":""} from: 192.168.124.1:62438, cost: 0 ms, unacked: 0, total push: 55
+
+2022-11-30 15:23:42,641 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2022-11-30 15:23:42,641 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:62438, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62438,1096976841401899
+
+2022-11-30 15:23:42,641 INFO send udp packet: 192.168.124.1,62438,1096976841401899
+
+2022-11-30 15:23:42,641 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:57890, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,57890,1096976841401899
+
+2022-11-30 15:23:42,641 INFO send udp packet: 192.168.124.1,57890,1096976841401899
+
+2022-11-30 15:23:42,642 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 192.168.124.1:63522, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,63522,1096976841401899
+
+2022-11-30 15:23:42,642 INFO send udp packet: 192.168.124.1,63522,1096976841401899
+
+2022-11-30 15:23:42,648 INFO received ack: {"type": "push-ack", "lastRefTime":"1096976841401899", "data":""} from: 192.168.124.1:62438, cost: 7 ms, unacked: 2, total push: 58
+
+2022-11-30 15:23:42,648 INFO received ack: {"type": "push-ack", "lastRefTime":"1096976841401899", "data":""} from: 192.168.124.1:63522, cost: 6 ms, unacked: 1, total push: 58
+
+2022-11-30 15:23:42,649 INFO received ack: {"type": "push-ack", "lastRefTime":"1096976841401899", "data":""} from: 192.168.124.1:57890, cost: 8 ms, unacked: 0, total push: 58
+
+2022-11-30 15:23:45,262 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 15:23:45,862 INFO DEFAULT_GROUP@@borrow-service is changed, add it to push queue.
+
+2022-11-30 15:23:45,862 INFO serviceName: DEFAULT_GROUP@@borrow-service changed, schedule push for: 192.168.124.1:62438, agent: Nacos-Java-Client:v1.4.2, key: 192.168.124.1,62438,1096980062478500
+
+2022-11-30 15:23:45,862 INFO send udp packet: 192.168.124.1,62438,1096980062478500
+
+2022-11-30 15:23:45,863 INFO received ack: {"type": "push-ack", "lastRefTime":"1096980062478500", "data":""} from: 192.168.124.1:62438, cost: 1 ms, unacked: 0, total push: 59
+

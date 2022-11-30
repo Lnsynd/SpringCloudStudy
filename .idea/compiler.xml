@@ -13,12 +13,5 @@
         <module name="borrow-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="book-service" target="1.8" />
-      <module name="borrow-service" target="1.8" />
-      <module name="commons" target="1.8" />
-      <module name="SpringCloudStudy" target="1.8" />
-      <module name="user-service" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
