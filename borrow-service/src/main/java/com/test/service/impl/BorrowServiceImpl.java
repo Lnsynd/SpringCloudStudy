@@ -1,5 +1,6 @@
 package com.test.service.impl;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.test.entity.Book;
 import com.test.entity.Borrow;
 import com.test.entity.User;
@@ -27,6 +28,7 @@ public class BorrowServiceImpl implements BorrowService {
     @Resource
     UserClient userClient;
 
+    @SentinelResource("details") //  该注释表示监控此方法
     @Override
     public UserBorrowDetail getUserBorrowDetailByUid(int uid) {
         List<Borrow> borrow = mapper.getBorrowsByUid(uid);

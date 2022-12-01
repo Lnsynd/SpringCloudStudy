@@ -1,10 +1,2 @@
-2022-11-30 13:46:17,395 INFO [dump-task] add task. groupKey=user-service-dev.yml+DEFAULT_GROUP, taskKey=user-service-dev.yml+DEFAULT_GROUP++false+null
-
-2022-11-30 13:56:52,674 INFO [dump-task] add task. groupKey=user-service-dev.yml+DEFAULT_GROUP, taskKey=user-service-dev.yml+DEFAULT_GROUP++false+null
-
-2022-11-30 14:00:34,618 INFO [dump-task] add task. groupKey=user-service-dev.yml+DEFAULT_GROUP, taskKey=user-service-dev.yml+DEFAULT_GROUP++false+null
-
-2022-11-30 14:01:28,965 INFO [dump-task] add task. groupKey=user-service-dev.yml+DEFAULT_GROUP, taskKey=user-service-dev.yml+DEFAULT_GROUP++false+null
-
-2022-11-30 14:03:08,650 INFO [dump-task] add task. groupKey=user-service-dev.yml+DEFAULT_GROUP, taskKey=user-service-dev.yml+DEFAULT_GROUP++false+null
+2022-12-01 11:52:48,941 INFO [dump-all-ok] user-service-dev.yml+DEFAULT_GROUP, 1669788188637, length=246, md5=77d38389b4d81e27a61444f6f5f3f814
 
