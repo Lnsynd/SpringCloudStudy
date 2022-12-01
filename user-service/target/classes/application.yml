@@ -10,3 +10,6 @@ spring:
     nacos:
       discovery:
         namespace: c5a5ab01-cf4f-4a94-9a39-ac3773fa8b54
+    sentinel:
+      transport:
+        dashboard: localhost:8858

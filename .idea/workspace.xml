@@ -4,76 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cec0478d-5f2b-4ff0-b3d5-84fa741136ff" name="Changes" comment="Nacos服务端注册&#10;集群分区&#10;配置中心&#10;命名空间">
-      <change afterPath="$PROJECT_DIR$/nacos/logs/access_log.2022-12-01.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/config-client-request.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/config-dump.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/config-fatal.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/config-memory.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/config-pull-check.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/config-server.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/config-trace.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/nacos-cluster.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/nacos.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/naming-distro.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/naming-event.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/naming-performance.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/naming-push.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/naming-raft.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/logs/naming-server.log.2022-11-30.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-dashboard-1.8.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/borrow-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/borrow-service/pom.xml" afterDir="false" />
+    <list default="true" id="cec0478d-5f2b-4ff0-b3d5-84fa741136ff" name="Changes" comment="Sentinel安装与部署&#10;流量控制">
+      <change afterPath="$PROJECT_DIR$/borrow-service/src/main/java/com/test/service/client/BookClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrow-service/src/main/java/com/test/service/client/UserClientImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/borrow-service/src/main/java/com/test/controller/BorrowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/borrow-service/src/main/java/com/test/controller/BorrowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/borrow-service/src/main/java/com/test/service/client/BookClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/borrow-service/src/main/java/com/test/service/client/BookClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/borrow-service/src/main/java/com/test/service/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/borrow-service/src/main/java/com/test/service/client/UserClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/borrow-service/src/main/java/com/test/service/impl/BorrowServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/borrow-service/src/main/java/com/test/service/impl/BorrowServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/borrow-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/borrow-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/borrow-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/borrow-service/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/borrow-service/target/classes/com/test/controller/BorrowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/borrow-service/target/classes/com/test/controller/BorrowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/borrow-service/target/classes/com/test/service/client/BookClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/borrow-service/target/classes/com/test/service/client/BookClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/borrow-service/target/classes/com/test/service/client/UserClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/borrow-service/target/classes/com/test/service/client/UserClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/borrow-service/target/classes/com/test/service/impl/BorrowServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/borrow-service/target/classes/com/test/service/impl/BorrowServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c400.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c490.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4b1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4c1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4d1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4e1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c4f0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c501.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c501.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c511.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c511.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c521.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c521.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c531.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c531.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c700.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c700.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c711.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c711.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c721.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c721.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c731.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c731.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c740.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c740.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c760.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c760.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/derby-data/seg0/c81.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/data/naming/data/c5a5ab01-cf4f-4a94-9a39-ac3773fa8b54/com.alibaba.nacos.naming.iplist.c5a5ab01-cf4f-4a94-9a39-ac3773fa8b54##DEFAULT_GROUP@@borrow-service" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/data/naming/data/c5a5ab01-cf4f-4a94-9a39-ac3773fa8b54/com.alibaba.nacos.naming.iplist.c5a5ab01-cf4f-4a94-9a39-ac3773fa8b54##DEFAULT_GROUP@@borrow-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/logs/access_log.2022-12-01.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/access_log.2022-12-01.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/config-client-request.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-client-request.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/logs/config-dump.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-dump.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/logs/config-fatal.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-fatal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/config-memory.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-memory.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/config-pull-check.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-pull-check.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/logs/config-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-server.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/config-trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/config-trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/logs/nacos-cluster.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/nacos-cluster.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/nacos.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/logs/naming-distro.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-distro.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/naming-event.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-event.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/naming-performance.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-performance.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/naming-push.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-push.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/naming-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-raft.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/logs/naming-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/logs/naming-server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -245,7 +203,7 @@
       <workItem from="1669812053701" duration="329000" />
       <workItem from="1669861514929" duration="432000" />
       <workItem from="1669862700782" duration="982000" />
-      <workItem from="1669866538657" duration="3336000" />
+      <workItem from="1669866538657" duration="8362000" />
     </task>
     <task id="LOCAL-00001" summary="Nacos服务端注册&#10;集群分区&#10;配置中心&#10;命名空间">
       <created>1669812345174</created>
@@ -254,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669812345174</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sentinel安装与部署&#10;流量控制">
+      <created>1669872130889</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669872130889</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +239,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Nacos服务端注册&#10;集群分区&#10;配置中心&#10;命名空间" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nacos服务端注册&#10;集群分区&#10;配置中心&#10;命名空间" />
+    <MESSAGE value="Sentinel安装与部署&#10;流量控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sentinel安装与部署&#10;流量控制" />
   </component>
 </project>

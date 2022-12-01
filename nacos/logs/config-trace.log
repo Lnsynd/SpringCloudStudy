@@ -4,3 +4,15 @@
 2022-12-01 12:02:46,493|192.168.1.4|user-service|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
 2022-12-01 12:02:46,501|192.168.1.4|user-service.yml|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
 2022-12-01 12:02:46,506|192.168.1.4|user-service-dev.yml|DEFAULT_GROUP|null|unknown|1669788188637|pull|ok|79177869|127.0.0.1
+2022-12-01 12:25:50,184|192.168.1.4|user-service|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2022-12-01 12:25:50,197|192.168.1.4|user-service.yml|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2022-12-01 12:25:50,202|192.168.1.4|user-service-dev.yml|DEFAULT_GROUP|null|unknown|1669788188637|pull|ok|80561565|127.0.0.1
+2022-12-01 12:25:52,134|192.168.1.4|user-service|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2022-12-01 12:25:52,142|192.168.1.4|user-service.yml|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2022-12-01 12:25:52,146|192.168.1.4|user-service-dev.yml|DEFAULT_GROUP|null|unknown|1669788188637|pull|ok|80563509|127.0.0.1
+2022-12-01 12:38:58,761|192.168.1.4|user-service|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2022-12-01 12:38:58,768|192.168.1.4|user-service.yml|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2022-12-01 12:38:58,771|192.168.1.4|user-service-dev.yml|DEFAULT_GROUP|null|unknown|1669788188637|pull|ok|81350134|127.0.0.1
+2022-12-01 12:39:00,645|192.168.1.4|user-service|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2022-12-01 12:39:00,653|192.168.1.4|user-service.yml|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2022-12-01 12:39:00,656|192.168.1.4|user-service-dev.yml|DEFAULT_GROUP|null|unknown|1669788188637|pull|ok|81352019|127.0.0.1

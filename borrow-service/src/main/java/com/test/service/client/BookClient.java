@@ -5,7 +5,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@FeignClient("book-service")
+@FeignClient(value = "book-service",fallback = BookClientImpl.class)
 public interface BookClient {
 
     @RequestMapping("/book/{bid}")

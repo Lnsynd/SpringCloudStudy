@@ -23,3 +23,8 @@ spring:
       transport:
         dashboard: localhost:8858
       web-context-unify: false
+      block-page: /blocked
+# 使用feign
+feign:
+  sentinel:
+    enabled: true
